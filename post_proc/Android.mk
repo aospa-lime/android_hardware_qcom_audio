@@ -74,7 +74,7 @@ LOCAL_SHARED_LIBRARIES := \
 LOCAL_MODULE_TAGS := optional
 
 LOCAL_MODULE_RELATIVE_PATH := soundfx
-LOCAL_MODULE:= libqcompostprocbundle
+LOCAL_MODULE := libqcompostprocbundle
 LOCAL_VENDOR_MODULE := true
 LOCAL_MODULE_OWNER := qti
 
@@ -153,7 +153,7 @@ endif
 
 ################################################################################
 
-ifneq ($(filter msm8992 msm8994 msm8996 msm8998 sdm660 sdm845 apq8098_latv sdm710 msm8953 msm8937 qcs605 sdmshrike msmnile kona lahaina holi atoll $(MSMSTEPPE) $(TRINKET) lito,$(TARGET_BOARD_PLATFORM)),)
+ifneq ($(filter msm8992 msm8994 msm8996 msm8998 sdm660 sdm845 apq8098_latv sdm710 msm8953 msm8937 qcs605 sdmshrike msmnile kona bengal lahaina holi atoll $(MSMSTEPPE) $(TRINKET) lito,$(TARGET_BOARD_PLATFORM)),)
 
 include $(CLEAR_VARS)
 
@@ -188,7 +188,7 @@ LOCAL_SHARED_LIBRARIES := \
         libaudioutils
 
 LOCAL_MODULE_RELATIVE_PATH := soundfx
-LOCAL_MODULE:= libvolumelistener
+LOCAL_MODULE := libvolumelistener
 LOCAL_VENDOR_MODULE := true
 LOCAL_MODULE_OWNER := qti
 
@@ -241,7 +241,7 @@ LOCAL_SHARED_LIBRARIES := \
     libdl
 
 LOCAL_MODULE_RELATIVE_PATH := soundfx
-LOCAL_MODULE:= libmalistener
+LOCAL_MODULE := libmalistener
 LOCAL_MODULE_OWNER := google
 LOCAL_PROPRIETARY_MODULE := true
 
